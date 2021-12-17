@@ -79,6 +79,7 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
@@ -90,7 +91,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -195,6 +195,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    cursor: pointer;
 }
 
 .buttons:hover{
