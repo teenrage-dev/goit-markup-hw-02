@@ -1,0 +1,218 @@
+:root {
+    --first-text-color: #212121;
+    --accent-text-color: #2196F3;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* -----------------HEADER---------------- */
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-text-color);
+}
+
+.header-logo-text{
+    color:#000000;
+}
+
+.header-link{
+    color: var(--first-text-color);
+    text-decoration: none;
+}
+
+.header-link:hover{
+    color: var(--accent-text-color);
+}
+
+.header-link-studio:visited{
+    color: var(--accent-text-color);
+}
+
+.header-link-portfolio:visited{
+    color: var(--accent-text-color);
+}
+
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contacts:hover{
+    color: var(--accent-text-color);
+}
+
+
+/* -----------------MAIN---------------- */
+.main-section{
+    background-color: #2F303A;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button{
+    background: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+.button:hover{
+    background: #188CE8;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* -----------------OUR ADVANTAGES---------------- */
+
+
+.title-properties{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-text-color);
+}
+
+.after-title-properties{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+/* -----------------WHAT WE DO?---------------- */
+
+
+.title-doing{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+.title-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+.pre-title-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+.after-title-team{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+
+
+/* -----------------FOOTER---------------- */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo-text{
+    color: #FFFFFF;
+}
+
+.address-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.adress-info {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-info:hover{
+    color: #FFFFFF;
+}
+
+
+
+/* ----------------------------------PORTFOLIO------------------------------------ */
+
+.buttons{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+}
+
+.buttons:hover{
+    background: var(--accent-text-color);
+    color: #FFFFFF;
+}
+
+.projects-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--first-text-color);
+}
+
+.after-title-properties{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
