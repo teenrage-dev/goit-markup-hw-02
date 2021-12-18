@@ -165,12 +165,12 @@ address{
 }
 
 
-.adress-info {
+.address-info {
     color: var(--sixth-text-color);
 }
 
-.adress-info:hover,
-.adress-info:focus{
+.address-info:hover,
+.address-info:focus{
     color: var(--third-text-color);
 }
 
