@@ -5,6 +5,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    color: var(--first-text-color);
 }
 
 .list{
@@ -27,8 +28,8 @@ body{
 }
 
 .header-link{
-    color: var(--first-text-color);
     text-decoration: none;
+    color: var(--first-text-color);
 }
 
 .header-link:hover{
@@ -104,7 +105,6 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--first-text-color);
 }
 
 .after-title-properties{
@@ -124,7 +124,6 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
 }
 
 .title-team{
@@ -133,7 +132,6 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
 }
 
 .pre-title-team{
@@ -142,7 +140,6 @@ body{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
 }
 
 .after-title-team{
@@ -194,7 +191,6 @@ body{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
     cursor: pointer;
 }
 
@@ -208,7 +204,6 @@ body{
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-    color: var(--first-text-color);
 }
 
 .after-title-properties{
