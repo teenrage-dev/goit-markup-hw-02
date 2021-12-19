@@ -105,7 +105,16 @@ body{
 /* -----------------OUR ADVANTAGES---------------- */
 
 .properties-title {
-    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .properties-item-title{
@@ -141,7 +150,6 @@ body{
 
 .team-item-title,
 .team-item-text{
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -179,10 +187,20 @@ address{
 /* ----------------------------------PORTFOLIO------------------------------------ */
 
 .portfolio-title{
-    visibility: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .buttons{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
